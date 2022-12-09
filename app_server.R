@@ -1,12 +1,3 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
-
 library(shiny)
 library(lintr)
 library("tidyverse", warn.conflicts = FALSE)
@@ -89,7 +80,7 @@ value <- c(the_average_co2,
            the_average_co2_in2021,
            highest_co2_production_by_country,
            highest_co2_country,
-           total_co2_production,
+           total_co2_production, 
            the_range_co2
            )
 
